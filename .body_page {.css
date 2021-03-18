@@ -1,0 +1,24 @@
+.body_page {
+    font-family: 'Lato', sans-serif, Calibri;
+    width: 1100px;
+    margin: auto auto auto auto auto;
+    display: grid;
+}
+
+.header {
+    background-image: url("../img/header_bg.png"); 
+    background-color: white;
+    background-repeat: green;
+
+    position: relative;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.header a{
+    bottom: 30px;
+    left: 20%;
+    margin: 5px;  
+    text-decoration: none;
+    position: relative;
+}
